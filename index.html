@@ -2,48 +2,90 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AtendeFácil – Atendimento com IA no Telegram</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
+      box-sizing: border-box;
       margin: 0;
-      background-color: #f9f9f9;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f7fb;
       color: #222;
+      line-height: 1.6;
     }
     header {
       background: #1c1c1c;
       color: white;
-      padding: 40px 20px;
+      padding: 60px 20px;
       text-align: center;
     }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
     section {
-      max-width: 800px;
-      margin: 40px auto;
+      max-width: 900px;
+      margin: 60px auto;
       padding: 0 20px;
     }
     h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
       color: #007bff;
     }
     ul {
+      margin-bottom: 30px;
       padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    .pricing {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .pricing h3 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .pricing p {
+      font-size: 1.1rem;
+      color: #444;
     }
     .cta {
       text-align: center;
-      margin-top: 40px;
+      margin-top: 30px;
     }
     .cta a {
-      background: #007bff;
+      background-color: #007bff;
       color: white;
-      padding: 15px 30px;
+      padding: 14px 30px;
       text-decoration: none;
       border-radius: 8px;
-      font-weight: bold;
+      font-weight: 600;
+      font-size: 1rem;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
+    .cta a:hover {
+      background-color: #0056b3;
     }
     footer {
       text-align: center;
-      padding: 20px;
-      font-size: 14px;
+      padding: 30px;
+      font-size: 0.9rem;
       color: #666;
     }
   </style>
@@ -52,35 +94,40 @@
 
 <header>
   <h1>AtendeFácil</h1>
-  <p>Seu atendente virtual com inteligência artificial no Telegram</p>
+  <p>Seu atendente inteligente no Telegram</p>
 </header>
 
 <section>
-  <h2>Como funciona?</h2>
+  <h2>🚀 O que é o AtendeFácil?</h2>
+  <p>Um assistente automatizado com IA para responder perguntas, agendar horários e facilitar o atendimento do seu negócio – tudo via Telegram.</p>
+
+  <h2>🔧 Funcionalidades</h2>
   <ul>
-    <li>🧠 Responde perguntas com ChatGPT</li>
-    <li>📅 Agenda horários automaticamente</li>
+    <li>💬 Responde perguntas com inteligência artificial (ChatGPT)</li>
+    <li>📅 Agenda horários automaticamente com disponibilidade real</li>
     <li>📊 Registra tudo em planilhas Google</li>
-    <li>💬 Funciona direto no Telegram</li>
+    <li>📱 Atendimento direto via Telegram</li>
   </ul>
 
-  <h2>Para quem é?</h2>
+  <h2>🎯 Indicado para:</h2>
   <ul>
-    <li>Clínicas e consultórios</li>
-    <li>Profissionais autônomos</li>
-    <li>Negócios locais e agências</li>
+    <li>Consultórios e clínicas</li>
+    <li>Prestadores de serviço (barbeiros, tatuadores, coaches)</li>
+    <li>Negócios locais e freelancers</li>
   </ul>
 
-  <h2>Planos</h2>
-  <p><strong>R$ 99/mês</strong> – com tudo incluso.</p>
+  <div class="pricing">
+    <h3>R$ 99/mês</h3>
+    <p>Inclui assistente com IA + agendamento + suporte via e-mail</p>
+  </div>
 
   <div class="cta">
-    <a href="https://buy.stripe.com/test_123456789" target="_blank">Assinar agora</a>
+    <a href="https://buy.stripe.com/test_123456" target="_blank">Quero meu AtendeFácil</a>
   </div>
 </section>
 
 <footer>
-  © 2025 Beyond | suporte: atendefacilsuporte@gmail.com
+  © 2025 Beyond • suporte: atendefacilsuporte@gmail.com
 </footer>
 
 </body>
