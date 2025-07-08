@@ -2,133 +2,72 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AtendeFácil – Atendimento com IA no Telegram</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AtendeFácil – Assistente Inteligente no Telegram</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #f5f7fb;
-      color: #222;
-      line-height: 1.6;
-    }
-    header {
-      background: #1c1c1c;
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 1.2rem;
-      color: #ccc;
-    }
-    section {
-      max-width: 900px;
-      margin: 60px auto;
-      padding: 0 20px;
-    }
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 15px;
-      color: #007bff;
-    }
-    ul {
-      margin-bottom: 30px;
-      padding-left: 20px;
-    }
-    ul li {
-      margin-bottom: 10px;
-    }
-    .pricing {
-      background: white;
-      border-radius: 12px;
-      padding: 30px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-      text-align: center;
-      margin-bottom: 40px;
-    }
-    .pricing h3 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-    }
-    .pricing p {
-      font-size: 1.1rem;
-      color: #444;
-    }
-    .cta {
-      text-align: center;
-      margin-top: 30px;
-    }
-    .cta a {
-      background-color: #007bff;
-      color: white;
-      padding: 14px 30px;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: 600;
-      font-size: 1rem;
-      display: inline-block;
-      transition: background-color 0.3s;
-    }
-    .cta a:hover {
-      background-color: #0056b3;
-    }
-    footer {
-      text-align: center;
-      padding: 30px;
-      font-size: 0.9rem;
-      color: #666;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">BOA</div>
+      <ul class="nav-links">
+        <li><a href="#features">Funcionalidades</a></li>
+        <li><a href="#pricing">Preço</a></li>
+        <li><a href="#cta">Comece agora</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Seu Assistente Inteligente no Telegram</h1>
+      <p>O AtendeFácil automatiza seu atendimento e agendamentos usando IA.</p>
+      <a href="#cta" class="btn">Comece agora</a>
+    </div>
+  </header>
 
-<header>
-  <h1>AtendeFácil</h1>
-  <p>Seu atendente inteligente no Telegram</p>
-</header>
+  <section class="features" id="features">
+    <div class="feature">
+      <div class="icon">🧠</div>
+      <h3>Com IA (ChatGPT)</h3>
+      <p>Respostas inteligentes, automáticas e personalizadas para seus clientes.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">📅</div>
+      <h3>Agendamento em tempo real</h3>
+      <p>Seus clientes escolhem horários direto no Telegram sem complicações.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">📊</div>
+      <h3>Sincronização com Google</h3>
+      <p>Todos os dados vão direto para sua planilha Google organizada.</p>
+    </div>
+  </section>
 
-<section>
-  <h2>🚀 O que é o AtendeFácil?</h2>
-  <p>Um assistente automatizado com IA para responder perguntas, agendar horários e facilitar o atendimento do seu negócio – tudo via Telegram.</p>
+  <section class="pricing" id="pricing">
+    <h2>Preço</h2>
+    <p>Plano mensal simples.</p>
+    <div class="plan">
+      <h3>Plano completo</h3>
+      <p class="price">R$99/mês</p>
+      <ul>
+        <li>✔ Respostas com IA ilimitadas</li>
+        <li>✔ Agendamento automático</li>
+        <li>✔ Registro em planilha Google</li>
+      </ul>
+      <a href="#cta" class="btn">Comece agora</a>
+    </div>
+  </section>
 
-  <h2>🔧 Funcionalidades</h2>
-  <ul>
-    <li>💬 Responde perguntas com inteligência artificial (ChatGPT)</li>
-    <li>📅 Agenda horários automaticamente com disponibilidade real</li>
-    <li>📊 Registra tudo em planilhas Google</li>
-    <li>📱 Atendimento direto via Telegram</li>
-  </ul>
+  <section class="cta" id="cta">
+    <h2>Automatize seu atendimento agora.</h2>
+    <p>Comece com o AtendeFácil e simplifique seu atendimento e agenda hoje mesmo.</p>
+    <a href="https://buy.stripe.com/your-real-link" class="btn">Comece agora</a>
+  </section>
 
-  <h2>🎯 Indicado para:</h2>
-  <ul>
-    <li>Consultórios e clínicas</li>
-    <li>Prestadores de serviço (barbeiros, tatuadores, coaches)</li>
-    <li>Negócios locais e freelancers</li>
-  </ul>
-
-  <div class="pricing">
-    <h3>R$ 99/mês</h3>
-    <p>Inclui assistente com IA + agendamento + suporte via e-mail</p>
-  </div>
-
-  <div class="cta">
-    <a href="https://buy.stripe.com/test_123456" target="_blank">Quero meu AtendeFácil</a>
-  </div>
-</section>
-
-<footer>
-  © 2025 Beyond • suporte: atendefacilsuporte@gmail.com
-</footer>
-
+  <footer>
+    <div class="footer-content">
+      <span>Contato: atendefacilsuporte@gmail.com</span>
+      <span>© 2025 Beyond</span>
+    </div>
+  </footer>
 </body>
 </html>

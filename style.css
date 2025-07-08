@@ -1,0 +1,127 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #111;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  padding: 40px 20px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto 20px;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #222;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  gap: 40px;
+  background: #fff;
+}
+
+.feature {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.pricing {
+  text-align: center;
+  background: #f2f2f2;
+  padding: 60px 20px;
+}
+
+.plan {
+  background: white;
+  display: inline-block;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+  text-align: left;
+  max-width: 400px;
+}
+
+.price {
+  font-size: 1.8rem;
+  margin: 10px 0;
+}
+
+.plan ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px 0;
+}
+
+.plan ul li {
+  margin-bottom: 10px;
+}
+
+.cta {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+footer {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #eee;
+}
