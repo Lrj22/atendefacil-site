@@ -158,6 +158,25 @@ a {
   border: 2px solid #fff;
 }
 
+.legal {
+  background: #f4f4f4;
+  padding: 40px 20px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.legal-wrapper {
+  max-width: 800px;
+  margin: auto;
+}
+
+.legal h3 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+
 footer {
   padding: 30px 20px;
   text-align: center;
